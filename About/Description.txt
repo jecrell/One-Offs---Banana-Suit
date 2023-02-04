@@ -1,0 +1,11 @@
+  Adds a makeable banana suit to RimWorld for use in your colonies and scenarios.
+  
+  The Banana Suit provides insolation, covers clothing, and is great at parties.
+  Minimum Technology: Medieval
+  Required Research: Complex clothing
+  Armor: 30%
+  Insulation Cold: 40%
+  Insulation Heat: 20%
+  + Can be used as ideology apparel
+  + Social Impact Bonus: +15%
+  Costs: 80 Leather / Fabric, 1 Dye

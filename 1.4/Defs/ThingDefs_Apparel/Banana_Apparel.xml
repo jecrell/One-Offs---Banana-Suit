@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>BananaSuit_TheSuit</defName>
+    <description>One day, a brilliant fellow named Dr. Jonas Bananas proposed a radical idea -- to create a suit designed after the abundant local banana plants that would protect settlers from the extreme temperatures and harsh environment. The idea was met with skepticism, but Dr. Bananas was determined to prove his concept.\n\nWhen the day finally came for Dr. Bananas to unveil his creation, the settlers were blown away and believed the suit had extraordinary properties. The truth was that Dr. Bananas had spent all of the research money on drugs and alcohol and had just tailored a simple banana costume at the last minute. Oblivious, the rimdwellers celebrated the creation, and despite not being special in any way, the suit eventually became a multi-planetary icon and standard apparel on many rimworlds and often a party requirement due to being ~~fricken awesome~~.</description>
+    <label>banana suit</label>
+    <possessionCount>1</possessionCount>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <displayPriority>215</displayPriority>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Apparel/Bodywear_Clothing/BananaSuit/BananaSuit</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.05</drawSize>
+    </graphicData>
+    <costList>
+      <Dye>1</Dye>
+    </costList>
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>4</Mass>
+      <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.40</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>4</EquipDelay>
+    </statBases>
+    <generateCommonality>0.02</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Bodywear_Clothing/BananaSuit/BananaSuit</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+    </apparel>
+    <equippedStatOffsets>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
+      <SocialImpact>0.15</SocialImpact>
+    </equippedStatOffsets>
+    <tradeTags>
+      <li>BasicClothing</li>
+    </tradeTags>
+  </ThingDef>
+</Defs>
