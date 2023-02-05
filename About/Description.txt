@@ -8,4 +8,5 @@
   Insulation Heat: 20%
   + Can be used as ideology apparel
   + Social Impact Bonus: +15%
+  + Kid banana suits are available for Biotech
   Costs: 80 Leather / Fabric, 1 Dye

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+            <!-- Leaders, Moralists-->
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/PreceptDef[@ParentName="PreceptRoleSingleBase"]/roleApparelRequirements</xpath>
+                <order>Prepend</order>
+                <value>
+                    <li>
+                        <requirement>
+                            <bodyPartGroupsMatchAny>
+                                <li>Torso</li>
+                                <li>Neck</li>
+                                <li>Shoulders</li>
+                                <li>Arms</li>
+                                <li>Legs</li>
+                            </bodyPartGroupsMatchAny>
+                            <requiredDefs>
+                                <li>BananaSuit_TheSuit</li>
+                            </requiredDefs>
+                        </requirement>
+                    </li>
+                </value>
+            </li>
+
+            <!-- Specialists -->
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/PreceptDef[@ParentName="PreceptRoleMultiBase"]/roleApparelRequirements</xpath>
+                <order>Prepend</order>
+                <value>
+                    <li>
+                        <requirement>
+                            <bodyPartGroupsMatchAny>
+                                <li>Torso</li>
+                                <li>Neck</li>
+                                <li>Shoulders</li>
+                                <li>Arms</li>
+                                <li>Legs</li>
+                            </bodyPartGroupsMatchAny>
+                            <requiredDefs>
+                                <li>BananaSuit_TheSuit</li>
+                            </requiredDefs>
+                        </requirement>
+                    </li>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+
+</Patch>
